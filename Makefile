@@ -19,9 +19,9 @@ dev-stop: ## Spin down active containers
 
 nb: dev-start ## Opens Jupyterlab in the browser
 	@if [ "$(shell uname)" = "Darwin" ]; then \
-		docker port $(CONTAINER_NAME) | grep 8888 | awk -F ":" '{print "http://localhost:"$$2}' | xargs open ; \
+		docker port $(CONTAINER_NAME) | grep 8888 | awk -F ' -> ' '{print "http://" $$2}' | xargs open ; \
 	elif [ "$(shell uname)" = "Linux" ]; then \
-		docker port $(CONTAINER_NAME) | grep 8888 | awk -F ":" '{print "http://localhost:"$$2}' | xargs xdg-open ; \
+		docker port $(CONTAINER_NAME) | grep 8888 | awk -F ' -> ' '{print "http://" $$2}' | xargs xdg-open ; \
 	else \
 		echo "Unsupported OS" ; \
 	fi
