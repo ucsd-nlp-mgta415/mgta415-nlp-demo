@@ -6,10 +6,9 @@ Welcome to the Final Project for your NLP Applications course at UCSD's Rady Bus
 ## Table of Contents
 
 1. [Prerequisites](#prerequisites)
-2. [Accepting the Assignment](#accepting-the-assignment)
-3. [Setting Up Your Repository](#setting-up-your-repository)
-4. [Secret Management](#secret-management)
-5. [Troubleshooting](#troubleshooting)
+2. [Setting Up Your Repository](#setting-up-your-repository)
+3. [Secret Management](#secret-management)
+4. [Troubleshooting](#troubleshooting)
 
 ## Prerequisites
 
@@ -20,13 +19,6 @@ Before you begin, ensure you have the following:
 3. Docker installed on your local machine. Follow the [Docker installation instructions](https://docs.docker.com/get-docker/) for your operating system.
 4. Windows Subsystem for Linux (WSL) for Windows users or a Unix-based system (macOS) for macOS users.
 5. Basic understanding of Git and Docker commands.
-
-## Accepting the Assignment
-
-1. You will receive an invitation link to the GitHub Classroom for this assignment.
-2. Click on the link, and you will be directed to GitHub Classroom.
-3. If prompted, authorize GitHub Classroom to access your GitHub account.
-4. Accept the assignment. This will create a private repository for your submission.
 
 ## Setting Up Your Repository
 
