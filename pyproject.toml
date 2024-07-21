@@ -25,6 +25,7 @@ vadersentiment = "^3.3.2"
 torch = "^2.3.1"
 pyldavis = "^3.4.1"
 mlxtend = "^0.23.1"
+plotly = "^5.22.0"
 
 
 [build-system]
