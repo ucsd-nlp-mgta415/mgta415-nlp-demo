@@ -5,7 +5,14 @@ COPY pyproject.toml poetry.lock* /build/
 #ADD requirements.txt /build/requirements.txt
 WORKDIR /build/
 
-RUN apt-get update && apt-get install -y build-essential pkg-config python3-dev curl
+RUN apt-get update && apt-get install -y \
+    build-essential \
+    pkg-config \
+    python3-dev \
+    curl \
+    graphviz \
+    graphviz-dev
+
 
 # Install Poetry
 RUN curl -sSL https://install.python-poetry.org | python3 - --yes
