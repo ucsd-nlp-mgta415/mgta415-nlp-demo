@@ -26,6 +26,9 @@ torch = "^2.3.1"
 pyldavis = "^3.4.1"
 mlxtend = "^0.23.1"
 plotly = "^5.22.0"
+crewai = "^0.51.1"
+pydantic = "^2.8.2"
+crewai-tools = "^0.8.3"
 
 
 [build-system]
